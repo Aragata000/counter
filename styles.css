@@ -1,0 +1,36 @@
+body {
+	background-color: white;
+	position: relative;
+	height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter {
+	border: 4px solid black;
+	border-radius: 15px;
+	margin: auto;
+}
+
+button {
+	border: 2px solid black;
+	border-radius: 14px;
+	cursor: pointer;
+	text-align: center;
+	padding: 15px 16px;
+	margin: 15px;
+
+}
+
+.counter-text {
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	margin: 10px 0px 20px ;
+}
+
+.counter-buttons {
+	text-align: center;
+	padding: ;
+}
