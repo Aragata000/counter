@@ -2,19 +2,19 @@ let count = 0;
 
 const updateCounterValue = () => {
   document.getElementById("counter-text").innerText = count;
-}
+};
 
-const increment = () => {
-  count < 20 && count++
-  updateCounterValue()
-}
+const incrementCounter = () => {
+  count < 20 && count++;
+  updateCounterValue();
+};
 
-const decrement = () => {
-  if (count > 0) count--
-    updateCounterValue()
-}
+const decrementCounter = () => {
+  if (count > 0) count--;
+  updateCounterValue();
+};
 
-const restart = () => {
+const restartCounter = () => {
   count = 0;
-  updateCounterValue()
-}
+  updateCounterValue();
+};
